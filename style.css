@@ -1,0 +1,114 @@
+
+    body{
+        font-family: "Rubik", sans-serif;
+    }
+   .container{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    background-image: url('https://img.freepik.com/premium-vector/futuristic-background-style_23-2148503794.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   }
+   .left{
+    width: 55%;
+    height: 400px;
+   }
+   
+
+
+    .main{
+        position: relative;
+        
+        top: 3%;
+        width: 400px;
+        height: 550px;
+        background-color: rgba(173, 234, 243, 0.358);
+        border-radius: 20px;
+    }
+
+    .webname{
+        position: absolute;
+        top: 20%;
+        margin: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        width: 264px;
+        height: 10vh;
+        font-size: 50px;
+    }
+    
+    
+    .input{
+        margin: 25px;
+        transition: all 0.2s;
+        height: 30px;
+        width: 60%;
+        padding: 10px;
+        border: none;
+        font-size: 16px;
+        border-radius: 10px;
+        color: black;
+    }
+    .input:hover{
+        height: 35px;
+        width: 61%;
+    }
+
+    .btn{
+       position: relative;
+       margin: 10px;
+       left: 130px;
+        height: 40px;
+        width: 140px;
+        border: none;
+        border-radius: 25px;
+        background-color: rgb(240, 42, 42);
+        color: white;
+        transition: all 0.2s;
+    }
+    .btn:hover{
+        height: 45px;
+        width: 150px;
+    }
+    
+    #intro{
+        margin: 10px;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 33%;
+    }
+    a{
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+    a:hover{
+        font-size: 18px;
+    }
+    .about{
+        position: relative;
+        top: 10px;
+        height: 70px;
+        width: 360px;
+    }
+    .lst{
+        color: white;
+        margin-left: 30px;
+    }
+    .watermark{
+        font-size: 150px;
+        rotate: -30deg;
+        position: absolute;
+        width: 150px;
+        left: 30%;
+        top: 350px;
+        
+        opacity: 0.1;
+        color: white;
+    }
+
